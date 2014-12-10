@@ -1,4 +1,5 @@
 Segue abaixo uma lista de idéias de kits de circuitos eletrônicos:
 
 * Cartucho reprogramável de Odyssey^2 (RAMCart similar ao do Sören: https://web.archive.org/web/20131108095653/http://soeren.informationstheater.de/g7000/g7000ram.html).
+* Shield de arduino para controlar chips de som clássicos como o YM2151
 * <sua idéia aqui>
