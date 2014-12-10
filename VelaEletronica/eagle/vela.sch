@@ -12099,8 +12099,8 @@ Source: Projects Unlimited Inc. Microphone_TOM-1545P-R_40092-1.pdf</description>
 <instance part="U1" gate="G$1" x="25.4" y="48.26"/>
 <instance part="P+2" gate="VCC" x="33.02" y="25.4"/>
 <instance part="R1" gate="G$1" x="58.42" y="48.26"/>
-<instance part="R2" gate="G$1" x="93.98" y="27.94" rot="R90"/>
-<instance part="R3" gate="G$1" x="63.5" y="12.7" rot="R90"/>
+<instance part="R2" gate="G$1" x="93.98" y="27.94" rot="R270"/>
+<instance part="R3" gate="G$1" x="63.5" y="12.7" rot="R270"/>
 <instance part="R4" gate="G$1" x="83.82" y="27.94" rot="R270"/>
 <instance part="R5" gate="G$1" x="76.2" y="12.7" rot="R270"/>
 <instance part="LED1" gate="G$1" x="66.04" y="48.26" rot="R90"/>
@@ -12132,11 +12132,11 @@ Source: Projects Unlimited Inc. Microphone_TOM-1545P-R_40092-1.pdf</description>
 <wire x1="83.82" y1="35.56" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="35.56" x2="99.06" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="22.86" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="33.02" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
 <junction x="93.98" y="35.56"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="7.62" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="17.78" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="33.02" x2="83.82" y2="35.56" width="0.1524" layer="91"/>
 <junction x="83.82" y="35.56"/>
@@ -12180,7 +12180,7 @@ Source: Projects Unlimited Inc. Microphone_TOM-1545P-R_40092-1.pdf</description>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="33.02" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="22.86" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
 <label x="96.52" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -12254,7 +12254,7 @@ Source: Projects Unlimited Inc. Microphone_TOM-1545P-R_40092-1.pdf</description>
 <wire x1="60.96" y1="5.08" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="5.08" x2="66.04" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="17.78" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="7.62" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
 <junction x="63.5" y="5.08"/>
 </segment>
 </net>
@@ -12279,6 +12279,10 @@ Source: Projects Unlimited Inc. Microphone_TOM-1545P-R_40092-1.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,25.4,13.7753,ICSP,,,,,"/>
+<approved hash="113,1,67.31,48.5817,LED1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
